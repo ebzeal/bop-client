@@ -1,0 +1,21 @@
+$header-font: 'Lato', sans-serif;
+$body-font: 'Roboto', sans-serif;
+$red: red;
+
+body {
+  font-family: $body-font;
+  margin:0px
+} 
+
+h1,h2,h3,h4 {
+  font-family: $header-font;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
