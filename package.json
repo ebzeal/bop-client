@@ -27,6 +27,8 @@
     "@babel/runtime": "^7.8.7",
     "@types/react": "^16.9.23",
     "@types/react-dom": "^16.9.5",
+    "@types/react-router-dom": "^5.1.3",
+    "@types/styled-components": "^5.0.1",
     "axios": "^0.19.2",
     "express": "^4.17.1",
     "fancy-log": "^1.3.3",
@@ -40,7 +42,8 @@
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-helmet": "^5.2.1",
-    "react-router-dom": "^5.1.2"
+    "react-router-dom": "^5.1.2",
+    "styled-components": "^5.0.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
