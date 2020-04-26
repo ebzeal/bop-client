@@ -1,6 +1,4 @@
 import styled from 'styled-components';
-import ProjectManagement from '../../assets/projectManagement.svg';
-import ProjectManagementImage from '../../assets/Project-management'
 
 
 let BannerDiv = styled.div`
@@ -37,6 +35,10 @@ background: -webkit-linear-gradient(180deg, #EB5757 0%, #872727 100%);
 const BannerImage = styled.div`
 margin-top:90px;
 padding-left:40px;
+
+img {
+  max-width:90%
+}
 `;
 
 export {BannerDiv, TitleText, StoryText, BannerImage}

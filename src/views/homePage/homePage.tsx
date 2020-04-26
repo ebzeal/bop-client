@@ -1,6 +1,7 @@
 import React from 'react';
 import {Helmet} from 'react-helmet'
-import Banner from '../../components/banner/banner'
+import Banner from '../../components/banner/banner';
+import WhatWeDo from '../../components/whatWeDo/whatWeDo'
 import ProjectManagement from '../../assets/projectManagement.svg';
 
 
@@ -14,8 +15,9 @@ const HomePage = ():JSX.Element => (
     button= {true}
     buttonText= {'See Our Works'}
     image={ProjectManagement}
-    imgAlt={'Project Management at MindPlus'}
+    imgAlt={'Project Management at BOP'}
   />
+  <WhatWeDo />
   </>
 )
 
