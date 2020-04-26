@@ -8,7 +8,7 @@ import {LogoText, HeaderBar, SpaceBetween} from './header.styles'
 
 const Header = ():JSX.Element => (
 <HeaderBar>
-  <LogoText>BOP</LogoText>
+  <h1>BOP</h1>
   <SpaceBetween />
    <img src={MenuIcon} />
   </HeaderBar>
