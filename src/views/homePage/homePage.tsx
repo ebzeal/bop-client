@@ -1,8 +1,14 @@
 import React from 'react';
 import {Helmet} from 'react-helmet'
-import Banner from '../../components/banner/banner';
-import WhatWeDo from '../../components/whatWeDo/whatWeDo'
 import ProjectManagement from '../../assets/projectManagement.svg';
+
+import {MarginedBody} from './homePage.styles';
+
+import Banner from '../../components/banner/banner';
+import WhatWeDo from '../../components/whatWeDo/whatWeDo';
+import PublishedBooks from '../../components/books/publishedBooks'
+
+
 
 
 
@@ -17,7 +23,10 @@ const HomePage = ():JSX.Element => (
     image={ProjectManagement}
     imgAlt={'Project Management at BOP'}
   />
+  <MarginedBody>
   <WhatWeDo />
+  <PublishedBooks />
+  </MarginedBody>
   </>
 )
 
