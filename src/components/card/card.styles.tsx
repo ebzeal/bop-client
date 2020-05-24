@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const CardDiv = styled.div`
-min-width: 100%;
+max-width: 100%;
 height: 525px;
 background: #FFFFFF;
 box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);

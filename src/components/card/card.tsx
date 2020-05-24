@@ -1,6 +1,6 @@
 import React from 'react';
 import {CardDiv} from './card.styles';
-import {StoryText} from '../banner/banner.styles'
+import {StoryText} from '../banner/banner.styles';
 import LearnMore from '../learnMore/learnMore';
 
 const CardComponent = ({image, alt, title, bodyText }:any) => (

@@ -1,7 +1,5 @@
 import React from 'react';
-// import  { ReactComponent as MenuIcon} from "../../assets/menu_icon.svg"
-import MenuIcon from "../../assets/menu_icon.svg"
-// import MenuIcon from '../../assets/menu-icon'
+import MenuIcon from "../../assets/menu_icon.svg";
 
 import {LogoText, HeaderBar, SpaceBetween} from './header.styles'
 
