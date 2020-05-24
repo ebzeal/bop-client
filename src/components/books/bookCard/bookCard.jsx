@@ -14,7 +14,7 @@ const BookCard = () => (
           Book: 
           </label>
           <p>
-            Everyday With jesus
+            Everyday With Jesus
           </p>
         </div>
         <div>
