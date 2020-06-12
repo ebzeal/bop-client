@@ -7,7 +7,6 @@ import {MarginedBody} from './homePage.styles';
 import Banner from '../../components/banner/banner';
 import WhatWeDo from '../../components/whatWeDo/whatWeDo';
 import PublishedBooks from '../../components/books/publishedBooks';
-import Footer from '../../components/footer/footer';
 
 
 
@@ -28,9 +27,6 @@ const HomePage = ():JSX.Element => (
   <WhatWeDo />
   <PublishedBooks />
   </MarginedBody>
-  <Footer>
-    
-  </Footer>
   </>
 )
 
