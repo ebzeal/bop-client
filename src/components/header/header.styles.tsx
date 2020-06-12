@@ -5,6 +5,16 @@ const HeaderBar =  styled.div`
   display: flex;
   flex-wrap: wrap;
   margin: 0px 5%;
+
+  .fa-bars, .fa-times {
+    margin-top: 15px;
+    cursor:pointer;
+    color:#356EAD;
+
+    &:hover{
+      color:#EB5757;
+    }
+  }
 `;
 
 const SpaceBetween = styled.div`
