@@ -9,6 +9,8 @@ const BooksBox = () => (
     <BookCard />
     <BookCard />
     <BookCard />
+    <BookCard />
+    <BookCard />
   </BooksBoxDiv>
 );
 
